@@ -7,36 +7,57 @@ export default function Home() {
   const [visibleArticles, setVisibleArticles] = useState(6);
 
   const handleLoadMore = () => {
-    setVisibleArticles((prev) => prev + 6); // Menambah artikel yang tampil
+    setVisibleArticles((prev) => prev + 6); 
   };
 
-  // Menampilkan artikel utama di bagian atas
-  const headlineArticle = articles[0]; // Anggap artikel pertama adalah headline
+  const headlineArticle = articles[0]; 
 
   return (
     <div className="px-6 py-8 pt-[120px]">
       {/* Layout Headline dan Sidebar Artikel Terbaru */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        {/* Kolom Utama - Headline */}
+        
+        {/* Kolom Utama - Headline dalam Card */}
         <div className="lg:col-span-2">
-          <div className="mb-12">
-            <img
-              src={headlineArticle.image}
-              alt={headlineArticle.title}
-              className="w-full h-[450px] object-cover mb-4"
-            />
-            <h1 className="text-3xl font-bold mb-4">{headlineArticle.title}</h1>
-            <p className="text-lg text-gray-600">{headlineArticle.summary}</p>
+          <a href={`/article/${headlineArticle.slug}`}>
+            <div className="rounded-lg shadow-lg overflow-hidden cursor-pointer">
+              <img
+                src={headlineArticle.image}
+                alt={headlineArticle.title}
+                className="w-full h-[450px] object-cover"
+              />
+              <div className="p-6 bg-white">
+                <h1 className="text-3xl font-bold mb-4">{headlineArticle.title}</h1>
+                <p className="text-lg text-gray-600">{headlineArticle.summary}</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        {/* Kolom Kanan - Artikel Terbaru lebih kecil */}
+        <div>
+          <h2 className="font-bold text-lg mb-4">ARTIKEL TERBARU</h2>
+          <div className="space-y-4">
+            {articles.slice(1, 5).map((article) => (
+              <a 
+                key={article.id} 
+                href={`/article/${article.slug}`}
+                className="flex items-center gap-3 p-2 rounded-md shadow hover:shadow-md transition cursor-pointer"
+              >
+                <img 
+                  src={article.image} 
+                  alt={article.title} 
+                  className="w-20 h-20 object-cover rounded-md flex-shrink-0" 
+                />
+                <div>
+                  <h3 className="font-semibold text-sm leading-tight">{article.title}</h3>
+                </div>
+              </a>
+            ))}
           </div>
         </div>
 
-        {/* Kolom Kanan - Artikel Terbaru */}
-        <div className="space-y-6">
-          <h2 className="font-bold text-lg">ARTIKEL TERBARU</h2>
-          {articles.slice(1, 5).map((article) => (
-            <ArticleCard key={article.id} article={article} />
-          ))}
-        </div>
+
       </div>
 
       {/* Layout Artikel Lainnya - Grid 4 Kolom */}
