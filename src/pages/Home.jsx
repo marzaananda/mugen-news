@@ -4,20 +4,21 @@ import ArticleCard from "../components/ArticleCard.jsx";
 import LoadMoreButton from "../components/LoadMoreButton.jsx";
 
 export default function Home() {
-  const [visibleArticles, setVisibleArticles] = useState(6);
+  const [visibleArticles, setVisibleArticles] = useState(0); // awalnya kosong
 
   const handleLoadMore = () => {
-    setVisibleArticles((prev) => prev + 6); 
+    setVisibleArticles(prev => prev + 6); // tambah 6 artikel tiap klik
   };
 
-  const headlineArticle = articles[0]; 
+  // Headline artikel
+  const headlineArticle = articles[0];
 
   return (
     <div className="px-6 py-8 pt-[120px]">
-      {/* Layout Headline dan Sidebar Artikel Terbaru */}
+      {/* Layout Headline + Sidebar */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         
-        {/* Kolom Utama - Headline dalam Card */}
+        {/* Headline dalam card */}
         <div className="lg:col-span-2">
           <a href={`/article/${headlineArticle.slug}`}>
             <div className="rounded-lg shadow-lg overflow-hidden cursor-pointer">
@@ -34,20 +35,20 @@ export default function Home() {
           </a>
         </div>
 
-        {/* Kolom Kanan - Artikel Terbaru lebih kecil */}
+        {/* Sidebar Artikel Terbaru */}
         <div>
           <h2 className="font-bold text-lg mb-4">ARTIKEL TERBARU</h2>
           <div className="space-y-4">
-            {articles.slice(1, 5).map((article) => (
-              <a 
-                key={article.id} 
+            {articles.slice(1, 5).map(article => (
+              <a
+                key={article.id}
                 href={`/article/${article.slug}`}
                 className="flex items-center gap-3 p-2 rounded-md shadow hover:shadow-md transition cursor-pointer"
               >
-                <img 
-                  src={article.image} 
-                  alt={article.title} 
-                  className="w-20 h-20 object-cover rounded-md flex-shrink-0" 
+                <img
+                  src={article.image}
+                  alt={article.title}
+                  className="w-20 h-20 object-cover rounded-md flex-shrink-0"
                 />
                 <div>
                   <h3 className="font-semibold text-sm leading-tight">{article.title}</h3>
@@ -57,18 +58,17 @@ export default function Home() {
           </div>
         </div>
 
-
       </div>
 
-      {/* Layout Artikel Lainnya - Grid 4 Kolom */}
+      {/* Grid artikel lainnya */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-12">
-        {articles.slice(5, visibleArticles).map((article) => (
+        {articles.slice(5, 5 + visibleArticles).map(article => (
           <ArticleCard key={article.id} article={article} />
         ))}
       </div>
 
-      {/* Load More Button */}
-      {visibleArticles < articles.length && (
+      {/* Tombol Load More */}
+      {visibleArticles < articles.length - 5 && (
         <LoadMoreButton onClick={handleLoadMore} />
       )}
     </div>

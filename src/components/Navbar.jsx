@@ -27,7 +27,7 @@ export default function Navbar() {
     >
       <div className="flex items-center justify-center h-full space-x-10">
        
-        <div className="text-black font-bold text-xl cursor-pointer">LOGO</div>
+        <div className="w-12 h-auto mr-6"><img src="/logo3.png" alt="logo" /></div>
 
         <div className="text-black cursor-pointer hover:text-blue-600 transition-colors">Home</div>
         <div className="text-black cursor-pointer hover:text-blue-600 transition-colors">Blog</div>
