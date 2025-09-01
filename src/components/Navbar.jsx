@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Search } from "lucide-react";
+import { Link } from "react-router-dom"; 
 
 export default function Navbar() {
   const [showNavbar, setShowNavbar] = useState(true);
@@ -29,11 +30,15 @@ export default function Navbar() {
        
         <div className="w-12 h-auto mr-6"><img src="/logo3.png" alt="logo" /></div>
 
-        <div className="text-black cursor-pointer hover:text-blue-600 transition-colors">Home</div>
-        <div className="text-black cursor-pointer hover:text-blue-600 transition-colors">Blog</div>
-        <div className="text-black cursor-pointer hover:text-blue-600 transition-colors">Contact</div>
+        <Link to="/" className="text-black hover:text-blue-600 transition-colors">
+          Home
+        </Link>
+        <Link to="/About" className="text-black hover:text-blue-600 transition-colors">
+          About
+        </Link>
+        {/* <div className="text-black cursor-pointer hover:text-blue-600 transition-colors">About</div> */}
 
-        <div className="relative">
+        {/* <div className="relative">
           <button
             className="p-2 rounded-md hover:bg-gray-100 transition"
             onClick={() => setSearchOpen(!searchOpen)}
@@ -47,7 +52,7 @@ export default function Navbar() {
               transition-all duration-300 bg-white
               ${searchOpen ? "opacity-100 scale-100" : "opacity-0 scale-0"}`}
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

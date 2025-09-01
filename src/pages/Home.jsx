@@ -7,7 +7,7 @@ export default function Home() {
   const [visibleArticles, setVisibleArticles] = useState(0); // awalnya kosong
 
   const handleLoadMore = () => {
-    setVisibleArticles(prev => prev + 6); // tambah 6 artikel tiap klik
+    setVisibleArticles(prev => prev + 4);
   };
 
   // Headline artikel
