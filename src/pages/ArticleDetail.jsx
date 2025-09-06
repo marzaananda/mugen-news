@@ -1,7 +1,6 @@
 import { useParams } from "react-router-dom";
 import articles from "../data/articles.json";
-import Tag from "../components/Tag.jsx"; // pastikan import ini
-
+import Tag from "../components/Tag.jsx"; 
 export default function ArticleDetail() {
   const { slug } = useParams();
   const article = articles.find(a => a.slug === slug);
