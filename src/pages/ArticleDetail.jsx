@@ -25,7 +25,7 @@ export default function ArticleDetail() {
       </div>
 
       <div 
-        className="prose" 
+        className="prose whitespace-pre-line" 
         dangerouslySetInnerHTML={{ __html: article.content }} 
       />
     </div>
