@@ -1,0 +1,51 @@
+{
+  "id": 0,
+  "title": "Judul Artikel Kamu",
+  "summary": "Ringkasan singkat artikel untuk ditampilkan di card.",
+  "image": "/path-ke-gambar.jpg",
+  "tags": ["Kategori1", "Kategori2", "Kategori3"],
+  "slug": "judul-artikel-seo-friendly-tanpa-spasi",
+  "content": [
+    {
+      "type": "p",
+      "text": "Paragraf pembuka artikel yang menjelaskan topik utama."
+    },
+    {
+      "type": "img",
+      "src": "/path-ke-gambar-lain.jpg",
+      "alt": "Deskripsi gambar",
+      "caption": "Sumber gambar: Crunchyroll / Official Site",
+      "class": "my-6 rounded-lg shadow-sm"
+    },
+    {
+      "type": "p",
+      "text": "Paragraf lanjutan dengan isi berita, narasi, atau penjelasan."
+    },
+    {
+      "type": "quote",
+      "text": "Kutipan menarik dari narasumber atau highlight berita."
+    },
+    {
+      "type": "h2",
+      "text": "Subjudul tambahan atau topik baru di artikel."
+    },
+    {
+      "type": "p",
+      "text": "Isi tambahan dari artikel sesuai subjudul di atas."
+    },
+    {
+      "type": "source",
+      "text": "Sumber:",
+      "links": [
+        {
+          "text": "Official Website Blue Lock",
+          "href": "https://bluelock-pr.com"
+        },
+        {
+          "text": "Crunchyroll",
+          "href": "https://www.crunchyroll.com"
+        }
+      ]
+    }
+  ]
+}

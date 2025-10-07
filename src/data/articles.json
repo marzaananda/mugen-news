@@ -1,21 +1,125 @@
 [
-  {
+   {
     "id": 1,
-    "title": "Anime Blue Lock Umumkan Produksi Sekuel TV Series Baru",
-    "summary": "Anime Blue Lock Umumkan Produksi Sekuel TV Series Baru",
-    "image": "./Blue-Lock_visual_0926fx-1600x901.jpg",
-    "tags": ["Anime", "Series","jejepangan"],
-    "slug": "Anime-blue-lock-umumkan-produksi-sekuel-tv-series-baru",
-    "content": "<img src='/Blue-Lock_visual_0926fx-1600x901.jpg' alt='gambar contoh' class='my-6 rounded-lg' /> <p>Kabar gembira bagi para penggemar Blue Lock! Dalam acara “Blue Lock Egoist Festa 2025” yang digelar hari ini, diumumkan bahwa serial anime Blue Lock akan berlanjut dengan TV series sekuel baru.\n \n Bersamaan dengan pengumuman tersebut, komentar dari dua sosok penting di balik karya ini—Muneyuki Kaneshiro (penulis asli) dan Yusuke Nomura (ilustrator manga)—turut dibagikan kepada para penggemar.\n\nMuneyuki Kaneshiro menyampaikan antusiasmenya: \n\n“Sekuel sudah diputuskan!!! Mantap… terima kasih banyak untuk tim produksi para egois…! Isagi maupun kami semua akan memulai langkah baru dari sini! Dengan ego penuh, mata melotot, dan lidah menjulur, kami akan membuatnya—jadi bersiaplah dan tunggu dengan penuh takzim!” \n\n Sementara itu, Yusuke Nomura menambahkan bahwa cerita akan memasuki fase yang ditunggu-tunggu: \n\n “Akhirnya diumumkan! Seri anime baru!! Kali ini giliran Perang Pahlawan Baru yang akan dianimasikan. Silakan nantikan aksi para pemain asing yang lebih eksentrik daripada para penghuni Blue Lock!!” \n\n Dengan berlanjutnya adaptasi ini, para penggemar akan segera menyaksikan arc Perang Pahlawan Baru yang menampilkan persaingan sengit antara pemain Blue Lock dan bintang sepak bola muda dari seluruh dunia. \n\nInformasi lebih detail mengenai sekuel TV series Blue Lock akan diumumkan di kemudian hari. \n\n source : offcial website blue lock"
-  },
-  {
-    "id": "2",
     "title": "The Summer Hikaru Died Umumkan Season 2 Anime!",
     "summary": "The Summer Hikaru Died Umumkan Season 2 Anime!",
-    "image": "./G150CF0XYAA0JYO.jpg",
-    "tags": ["Anime", "Series","jejepangan"],
-    "slug": "The-Summer-Hikaru-Died-Umumkan-Season-2-Anime!",
-    "content": "Setelah penayangan episode terakhirnya, anime The Summer Hikaru Died (Hikaru ga Shinda Natsu) resmi mengumumkan bahwa season 2 sedang dalam produksi.\n Kabar ini dikonfirmasi langsung melalui akun resmi anime di X (Twitter) @hikanatsu_anime, serta dilaporkan juga oleh Crunchyroll.\n <img src='/G150CF0XYAA0JYO.jpg' alt='gambar contoh' class='my-6 rounded-lg' /> \n Meskipun detail lebih lanjut seperti tanggal rilis maupun visual promosi masih belum dirilis, pengumuman ini sudah cukup membuat para penggemar antusias untuk melanjutkan kisah misterius dan penuh ketegangan dari seri ini. \n Kami akan terus memperbarui informasi begitu ada pengumuman resmi terbaru dari pihak produksi.\n\n📌 Sumber: Akun resmi X @hikanatsu_anime, Crunchyroll"
+    "image": "/G150CF0XYAA0JYO.jpg",
+    "tags": ["Anime", "Series", "Jejepangan"],
+    "slug": "1",
+    "content": [
+      {
+        "type": "p",
+        "text": "Setelah penayangan episode terakhirnya, anime The Summer Hikaru Died (Hikaru ga Shinda Natsu) resmi mengumumkan bahwa season 2 sedang dalam produksi."
+      },
+      {
+        "type": "p",
+        "text": "Kabar ini dikonfirmasi langsung melalui akun resmi anime di X (Twitter) @hikanatsu_anime, serta dilaporkan juga oleh Crunchyroll."
+      },
+      {
+        "type": "img",
+        "src": "/G150CF0XYAA0JYO.jpg",
+        "alt": "Visual The Summer Hikaru Died",
+        "class": "my-6 rounded-lg",
+        "caption":"Sumber gambar: Official Website Blue Lock"
+      },
+      {
+        "type": "p",
+        "text": "Meskipun detail lebih lanjut seperti tanggal rilis maupun visual promosi masih belum dirilis, pengumuman ini sudah cukup membuat para penggemar antusias untuk melanjutkan kisah misterius dan penuh ketegangan dari seri ini."
+      },
+      {
+        "type": "p",
+        "text": "Kami akan terus memperbarui informasi begitu ada pengumuman resmi terbaru dari pihak produksi."
+      },
+      {
+        "type": "p",
+        "text": "📌 Sumber: Akun resmi X @hikanatsu_anime, Crunchyroll"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Anime Blue Lock Umumkan Produksi Sekuel TV Series Baru",
+    "summary": "Anime Blue Lock Umumkan Produksi Sekuel TV Series Baru",
+    "image": "/Blue-Lock_visual_0926fx-1600x901.jpg",
+    "tags": ["Anime", "Series", "Jejepangan"],
+    "slug": "anime-blue-lock-umumkan-produksi-sekuel-tv-series-baru",
+    "content": [
+      {
+        "type": "img",
+        "src": "/Blue-Lock_visual_0926fx-1600x901.jpg",
+        "alt": "Visual Blue Lock",
+        "class": "my-6 rounded-lg"
+      },
+      {
+        "type": "p",
+        "text": "Kabar gembira bagi para penggemar Blue Lock! Dalam acara “Blue Lock Egoist Festa 2025” yang digelar hari ini, diumumkan bahwa serial anime Blue Lock akan berlanjut dengan TV series sekuel baru."
+      },
+      {
+        "type": "p",
+        "text": "Bersamaan dengan pengumuman tersebut, komentar dari dua sosok penting di balik karya ini — Muneyuki Kaneshiro (penulis asli) dan Yusuke Nomura (ilustrator manga) — turut dibagikan kepada para penggemar."
+      },
+      {
+        "type": "quote",
+        "text": "Sekuel sudah diputuskan!!! Mantap… terima kasih banyak untuk tim produksi para egois…! Isagi maupun kami semua akan memulai langkah baru dari sini! Dengan ego penuh, mata melotot, dan lidah menjulur, kami akan membuatnya — jadi bersiaplah dan tunggu dengan penuh takzim!"
+      },
+      {
+        "type": "p",
+        "text": "Sementara itu, Yusuke Nomura menambahkan bahwa cerita akan memasuki fase yang ditunggu-tunggu."
+      },
+      {
+        "type": "quote",
+        "text": "Akhirnya diumumkan! Seri anime baru!! Kali ini giliran Perang Pahlawan Baru yang akan dianimasikan. Silakan nantikan aksi para pemain asing yang lebih eksentrik daripada para penghuni Blue Lock!!"
+      },
+      {
+        "type": "p",
+        "text": "Dengan berlanjutnya adaptasi ini, para penggemar akan segera menyaksikan arc Perang Pahlawan Baru yang menampilkan persaingan sengit antara pemain Blue Lock dan bintang sepak bola muda dari seluruh dunia."
+      },
+      {
+        "type": "p",
+        "text": "Informasi lebih detail mengenai sekuel TV series Blue Lock akan diumumkan di kemudian hari."
+      },
+      {
+        "type": "p",
+        "text": "Sumber: Official Website Blue Lock"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "The Summer Hikaru Died Umumkan Season 2 Anime!",
+    "summary": "The Summer Hikaru Died Umumkan Season 2 Anime!",
+    "image": "/G150CF0XYAA0JYO.jpg",
+    "tags": ["Anime", "Series", "Jejepangan"],
+    "slug": "the-summer-hikaru-died-umumkan-season-2-anime",
+    "content": [
+      {
+        "type": "p",
+        "text": "Setelah penayangan episode terakhirnya, anime The Summer Hikaru Died (Hikaru ga Shinda Natsu) resmi mengumumkan bahwa season 2 sedang dalam produksi."
+      },
+      {
+        "type": "p",
+        "text": "Kabar ini dikonfirmasi langsung melalui akun resmi anime di X (Twitter) @hikanatsu_anime, serta dilaporkan juga oleh Crunchyroll."
+      },
+      {
+        "type": "img",
+        "src": "/G150CF0XYAA0JYO.jpg",
+        "alt": "Visual The Summer Hikaru Died",
+        "class": "my-6 rounded-lg"
+      },
+      {
+        "type": "p",
+        "text": "Meskipun detail lebih lanjut seperti tanggal rilis maupun visual promosi masih belum dirilis, pengumuman ini sudah cukup membuat para penggemar antusias untuk melanjutkan kisah misterius dan penuh ketegangan dari seri ini."
+      },
+      {
+        "type": "p",
+        "text": "Kami akan terus memperbarui informasi begitu ada pengumuman resmi terbaru dari pihak produksi."
+      },
+      {
+        "type": "p",
+        "text": "📌 Sumber: Akun resmi X @hikanatsu_anime, Crunchyroll"
+      }
+    ]
   }
 
+ 
 ]
