@@ -1,6 +1,46 @@
 [
+     {
+    "id": 1 ,
+    "title": "Frieren: Beyond Journey’s End Season 2 resmi tayang 16 Januari 2026!",
+    "summary": "Frieren: Beyond Journey’s End Season 2 resmi tayang 16 Januari 2026!",
+    "image": "/G2tXAiIbgAAxlKi.jpeg",
+    "tags": ["Anime", "Movie", "Jejepangan"],
+    "slug": "Frieren:-Beyond-Journey’s-End-Season-2-resmi-tayang-16-Januari-2026!",
+    "content": [
+      {
+        "type": "p",
+        "text": "Anime Sousou no Frieren (Frieren: Beyond Journey’s End) resmi mengumumkan bahwa musim keduanya akan tayang mulai 16 Januari 2026. Episode baru dijadwalkan hadir setiap hari Jumat pukul 23.00 waktu Jepang."
+      },
+      {
+        "type": "p",
+        "text": "Bersamaan dengan pengumuman tersebut, tim produksi juga merilis visual karakter terbaru yang menampilkan Frieren, Fern, dan Stark. Dalam visual ini, ketiganya tampak mengenakan pakaian musim dingin dan bersiap menghadapi situasi pertempuran, memberi gambaran akan suasana baru yang lebih intens di musim mendatang."
+      },
+      {
+        "type": "img",
+        "src": "/G2tXAiIbgAAxlKi.jpeg",
+        "alt": "Visual Frieren: Beyond Journey’s End Season 2",
+        "class": "my-6 rounded-lg",
+        "caption":"Sumber gambar: X/@Anime_Frieren"
+      },
+      {
+        "type": "p",
+        "text": "Penggemar pun mulai menantikan perjalanan lanjutan Frieren dan teman-temannya setelah akhir musim pertama yang sukses besar."
+      },
+    {
+      "type": "source",
+      "text": "Sumber:",
+      "links": [
+        {
+          "text": "X/@Anime_Frieren",
+          "href": "https://x.com/Anime_Frieren/status/1975863746833604750"
+        }
+      ]
+    }
+    ]
+  },
+
    {
-    "id": 1,
+    "id":2 ,
     "title": "Udah Nonton Reze Arc? Film Chainsaw Man Ini Masih Ramai Dibicarakan!",
     "summary": "Udah Nonton Reze Arc? Film Chainsaw Man Ini Masih Ramai Dibicarakan!",
     "image": "/images.jpeg",
@@ -56,7 +96,7 @@
   },
 
   {
-    "id": 2,
+    "id": 3,
     "title": "One Punch Man Season 3 Rilis Trailer Baru, Siap Tayang 5 Oktober 2025",
     "summary": "One Punch Man Season 3 Rilis Trailer Baru, Siap Tayang 5 Oktober 2025",
     "image": "/โตไปเป็นมนุษย์onTikTok.jpeg",
@@ -135,7 +175,7 @@
   },
 
     {
-    "id": 3,
+    "id": 4,
     "title": "Dynasty Warriors 3: Complete Edition Remastered Siap Hadir Maret 2026",
     "summary": "Dynasty Warriors 3: Complete Edition Remastered Siap Hadir Maret 2026",
     "image": "/header.jpg",
@@ -239,7 +279,7 @@
   },
 
     {
-    "id": 4,
+    "id": 5,
     "title": "The Summer Hikaru Died Umumkan Season 2 Anime!",
     "summary": "The Summer Hikaru Died Umumkan Season 2 Anime!",
     "image": "/G150CF0XYAA0JYO.jpg",
@@ -275,7 +315,7 @@
     ]
   },
     {
-      "id": 5,
+      "id": 6,
       "title": "Anime Blue Lock Umumkan Produksi Sekuel TV Series Baru",
       "summary": "Anime Blue Lock Umumkan Produksi Sekuel TV Series Baru",
       "image": "/Blue-Lock_visual_0926fx-1600x901.jpg",
