@@ -1,6 +1,66 @@
 [
+       {
+    "id":1,
+    "title": "Frieren: Beyond Journey’s End Manga Umumkan Hiatus Panjang, Fans Khawatirkan Kelanjutan Cerita",
+    "summary": "Baru juga di umumkan s2 loh rek....",
+    "image": "https://pbs.twimg.com/media/G2vYbgbaUAEWO3b?format=jpg&name=900x900",
+    "tags": ["Anime", "Jejepangan","Series"],
+    "slug": "Manga Frieren:-Beyond-Journey's-End-Hiatus-Panjang",
+    "content": [
+      {
+        "type": "p",
+        "text": "Dalam pernyataannya, pihak redaksi menjelaskan bahwa keputusan ini diambil setelah mempertimbangkan kondisi kesehatan penulis Kanehito Yamada dan ilustrator Tsukasa Abe. Setelah berdiskusi dengan keduanya, tim memutuskan untuk menyesuaikan tempo produksi agar kualitas cerita tetap terjaga."
+      },
+      {
+        "type": "quote",
+        "text": "“Kami telah memutuskan untuk menghentikan sementara serialisasi Frieren agar para kreator dapat beristirahat dan memulihkan kondisi mereka. Kami akan mengumumkan kelanjutannya pada edisi mendatang,” tulis pihak editorial dalam pengumuman resmi mereka."
+      },
+      {
+        "type": "img",
+        "src": "https://pbs.twimg.com/media/G3OQqznaAAAiCLs?format=jpg&name=medium",
+        "alt": "Visual Frieren: Beyond Journey’s End Season 2",
+        "class": "my-6 rounded-lg",
+        "caption":"Sumber gambar: X/@Anime_Frieren"
+      },
+      {
+        "type": "p",
+        "text": "Hiatus kali ini menjadi yang terpanjang dalam perjalanan manga Frieren. Sebelumnya, seri ini sempat mengalami jeda singkat di awal tahun 2025 dan pertengahan 2024. Meski begitu, pengumuman terbaru ini tidak mencantumkan tanggal pasti kapan serialisasi akan kembali dilanjutkan."
+      },
+      {
+        "type": "p",
+        "text": "Meskipun manga sedang berhenti, kabar baiknya adaptasi anime Frieren: Beyond Journey’s End Season 2 tidak akan terpengaruh. Studio Madhouse telah menyiapkan cukup banyak materi untuk memastikan proses produksi tetap berjalan sesuai jadwal."
+      },
+      {
+        "type": "p",
+        "text": "Sejak pertama kali dirilis, manga Frieren sudah terbit hingga volume ke-14 dan mencatat lebih dari 30 juta kopi beredar di seluruh dunia. Dengan reputasi sebagai salah satu seri fantasy terbaik dekade ini, pengumuman hiatus panjang ini membuat banyak penggemar merasa khawatir — namun di sisi lain, mereka juga mendukung keputusan yang mengutamakan kesehatan para kreatornya."
+      },
+      {
+        "type": "quote",
+        "text": "“Lebih baik hiatus lama tapi sehat, daripada dipaksakan,” tulis salah satu penggemar di media sosial X."
+      },
+      {
+        "type": "p",
+        "text": "Untuk saat ini, pembaca disarankan menunggu pengumuman resmi selanjutnya dari Weekly Shōnen Sunday terkait jadwal kembalinya Frieren: Beyond Journey’s End ke halaman majalah."
+      },
+      {
+      "type": "source",
+      "text": "Sumber:",
+      "links": [
+        {
+          "text": "X/@FRIEREN_PR",
+          "href": "https://x.com/FRIEREN_PR/status/1978113818501734694"
+        },
+        {
+          "text": "Image headline via X/@FRIEREN_PR",
+          "href": "https://x.com/FRIEREN_PR/status/1978113577585373264"
+        }
+        
+      ]
+    }
+    ]
+  },
      {
-    "id": 1 ,
+    "id":2,
     "title": "Frieren: Beyond Journey’s End Season 2 resmi tayang 16 Januari 2026!",
     "summary": "Frieren: Beyond Journey’s End Season 2 resmi tayang 16 Januari 2026!",
     "image": "/G2tXAiIbgAAxlKi.jpeg",
@@ -40,7 +100,7 @@
   },
 
    {
-    "id":2 ,
+    "id":3,
     "title": "Udah Nonton Reze Arc? Film Chainsaw Man Ini Masih Ramai Dibicarakan!",
     "summary": "Udah Nonton Reze Arc? Film Chainsaw Man Ini Masih Ramai Dibicarakan!",
     "image": "/images.jpeg",
@@ -96,7 +156,7 @@
   },
 
   {
-    "id": 3,
+    "id":4,
     "title": "One Punch Man Season 3 Rilis Trailer Baru, Siap Tayang 5 Oktober 2025",
     "summary": "One Punch Man Season 3 Rilis Trailer Baru, Siap Tayang 5 Oktober 2025",
     "image": "/โตไปเป็นมนุษย์onTikTok.jpeg",
@@ -175,7 +235,7 @@
   },
 
     {
-    "id": 4,
+    "id":5,
     "title": "Dynasty Warriors 3: Complete Edition Remastered Siap Hadir Maret 2026",
     "summary": "Dynasty Warriors 3: Complete Edition Remastered Siap Hadir Maret 2026",
     "image": "/header.jpg",
@@ -279,7 +339,7 @@
   },
 
     {
-    "id": 5,
+    "id":6,
     "title": "The Summer Hikaru Died Umumkan Season 2 Anime!",
     "summary": "The Summer Hikaru Died Umumkan Season 2 Anime!",
     "image": "/G150CF0XYAA0JYO.jpg",
@@ -315,7 +375,7 @@
     ]
   },
     {
-      "id": 6,
+      "id":7,
       "title": "Anime Blue Lock Umumkan Produksi Sekuel TV Series Baru",
       "summary": "Anime Blue Lock Umumkan Produksi Sekuel TV Series Baru",
       "image": "/Blue-Lock_visual_0926fx-1600x901.jpg",
