@@ -36,9 +36,9 @@ export default function Navbar() {
         <Link to="/About" className="text-black hover:text-blue-600 transition-colors">
           About
         </Link>
-        {/* <div className="text-black cursor-pointer hover:text-blue-600 transition-colors">About</div> */}
 
-        {/* <div className="relative">
+        {/* jangan di pakai gak ada apa apanya  
+        <div className="relative">
           <button
             className="p-2 rounded-md hover:bg-gray-100 transition"
             onClick={() => setSearchOpen(!searchOpen)}

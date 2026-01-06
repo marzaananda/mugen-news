@@ -9,3 +9,4 @@ export default function SearchBar({ value, onChange }) {
     />
   );
 }
+//masih statis belum dinamis
