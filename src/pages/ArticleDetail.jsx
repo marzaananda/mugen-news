@@ -17,7 +17,9 @@ export default function ArticleDetail() {
   return (
     <>
       <Helmet>
-        <title>{article.title} | {siteName}</title>
+        <title>
+          {article.title} | {siteName}
+        </title>
 
         <meta name="description" content={article.summary} />
         <meta name="keywords" content={article.tags.join(", ")} />
@@ -46,16 +48,16 @@ export default function ArticleDetail() {
             dateModified: new Date().toISOString(),
             author: {
               "@type": "Person",
-              name: "Admin"
+              name: "Admin",
             },
             publisher: {
               "@type": "Organization",
               name: siteName,
               logo: {
                 "@type": "ImageObject",
-                url: `${baseUrl}/logo.png`
-              }
-            }
+                url: `${baseUrl}/logo.png`,
+              },
+            },
           })}
         </script>
       </Helmet>
@@ -83,25 +85,62 @@ export default function ArticleDetail() {
           {article.content.map((block, i) => {
             switch (block.type) {
               case "p":
-                return <p key={i}>{block.text}</p>;
+                return (
+                  <p key={i} className="mb-4 leading-relaxed">
+                    {block.text}
+                  </p>
+                );
 
               case "img":
-                return <img key={i} src={block.src} alt={block.alt} />;
+                return (
+                  <div key={i} className="my-6 text-center">
+                    <img
+                      src={block.src}
+                      alt={block.alt}
+                      className={`rounded-lg shadow-sm mx-auto ${block.class || ""}`}
+                      onError={(e) => (e.target.src = "/default-header.jpg")}
+                    />
+                    {block.caption && (
+                      <p className="text-sm text-gray-500 mt-2 italic">
+                        {block.caption}
+                      </p>
+                    )}
+                  </div>
+                );
 
               case "h2":
-                return <h2 key={i}>{block.text}</h2>;
+                return (
+                  <h2 key={i} className="text-2xl font-semibold mt-8 mb-4">
+                    {block.text}
+                  </h2>
+                );
 
               case "quote":
-                return <blockquote key={i}>{block.text}</blockquote>;
+                return (
+                  <blockquote
+                    key={i}
+                    className="border-l-4 border-blue-500 pl-4 italic text-gray-600 my-4"
+                  >
+                    {block.text}
+                  </blockquote>
+                );
 
               case "source":
                 return (
-                  <footer key={i}>
-                    <p>{block.text}</p>
-                    <ul>
+                  <footer
+                    key={i}
+                    className="mt-10 border-t pt-4 text-sm text-gray-500"
+                  >
+                    <p className="mb-2">{block.text}</p>
+                    <ul className="space-y-1">
                       {block.links.map((link, idx) => (
                         <li key={idx}>
-                          <a href={link.href} target="_blank" rel="noopener noreferrer">
+                          <a
+                            href={link.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-600 hover:underline"
+                          >
                             {link.text}
                           </a>
                         </li>
