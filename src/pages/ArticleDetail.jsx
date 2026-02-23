@@ -10,8 +10,8 @@ export default function ArticleDetail() {
   if (!article) return <div className="p-6">Artikel tidak ditemukan</div>;
 
   // 👉 variabel harus di sini (bukan di dalam return)
-  const siteName = "Nama Portal Kamu";
-  const baseUrl = "https://domainmu.com";
+  const siteName = "Mugen News";
+  const baseUrl = "https://mugen-news.vercel.app/";
   const url = `${baseUrl}/${article.slug}`;
 
   return (
